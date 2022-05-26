@@ -1,4 +1,4 @@
-import { ComponentClass } from "react";
+import { ComponentClass, ReactNode } from "react";
 
 export interface MasonryOptions {
     columnWidth?: number | string | HTMLElement | null;
@@ -27,6 +27,7 @@ export interface MasonryPropTypes {
     style?: Object;
     onLayoutComplete?: (instance: any) => void;
     onRemoveComplete?: (instance: any) => void;
+    children?: ReactNode;
 }
 
 declare const Masonry: ComponentClass<MasonryPropTypes>;
