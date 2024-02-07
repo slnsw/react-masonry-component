@@ -1,3 +1,8 @@
+6.3.1
+====
+- Support React 18
+- Fix children typings
+
 6.3.0
 ====
 - Support React 17

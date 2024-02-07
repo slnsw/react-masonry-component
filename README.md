@@ -1,5 +1,7 @@
-React Masonry Component
-=======================
+@slnsw/react-masonry-component
+==============================
+
+[Original source](https://github.com/eiriklv/react-masonry-component)
 
 [![npm version](https://badge.fury.io/js/react-masonry-component.svg)](http://badge.fury.io/js/react-masonry-component)
 [![Build Status](https://travis-ci.org/eiriklv/react-masonry-component.svg?branch=master)](https://travis-ci.org/eiriklv/react-masonry-component)
@@ -114,7 +116,7 @@ you can do so by using `refs`.
 
 ```jsx
 import * as React from 'react';
-import Masonry from 'react-masonry-component';
+import Masonry from '@slnsw/react-masonry-component';
 
 class Gallery extends React.Component {
     handleLayoutComplete() { },
@@ -151,7 +153,7 @@ load event. More info availabe on the [imagesloaded website](https://imagesloade
 eg:
 ```jsx
 import * as React from 'react';
-import Masonry from 'react-masonry-component';
+import Masonry from '@slnsw/react-masonry-component';
 
 class Gallery extends React.Component {
   render() {
@@ -200,3 +202,8 @@ class Gallery extends React.Component {
     }
 }
 ```
+
+## TODO
+
+* Fix tests (no Phantom)
+* Update docs
